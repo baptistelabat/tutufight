@@ -1,7 +1,7 @@
 // Aurélien Conil Summerlab 2014
 
 Perso[] p = new Perso[2];   // personnage à gauche , personnage à droite
-int nombrePerso = 15;        // nombre d'avatar en photos(fichiers+1)
+int nombrePerso = 50;        // nombre d'avatar en photos(fichiers+1)
 boolean isMenu;
 PImage[] trombinoscope = new PImage[nombrePerso];   //chargement des images de "profil" des avatars 
 boolean choixNumero1;
@@ -229,11 +229,11 @@ println("---------personnages ok"+millis());
            p[1].bouton2();
            break;
           // perso 2 bouton3
-           case 'g':
+           case ':':
            p[1].bouton3();
            break;
           // perso 2 bouton4
-           case 't':
+           case '!':
            p[1].bouton4();
            break;
           //----------------------
@@ -350,6 +350,6 @@ void keyReleased()
     
  }
  
- boolean sketchFullScreen() {
+/* boolean sketchFullScreen() {
   return true;
-}
+}*/

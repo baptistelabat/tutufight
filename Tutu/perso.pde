@@ -171,11 +171,11 @@ class Perso{
       posx = posx - 3; 
       
       // Alternance de la photo de deplacement, selon si la position est pair ou impair
-      if(posx%4==0){
+      if(posx/50%2==0){
        imageCourante = 2 ;
       }
       else
-        imageCourante = 2;
+        imageCourante = 3;
       
       }
   }
@@ -184,11 +184,11 @@ class Perso{
       if(posx < limiteDroite ){
         posx = posx + 3;
       // Alternance de la photo de deplacement, selon si la position est pair ou impair
-      if((posx/5)%2==0){
+      if((posx/50)%2==0){
        imageCourante = 4 ;
       }
       else
-        imageCourante = 4;
+        imageCourante = 5;
       }
     
   }
@@ -372,5 +372,3 @@ class Perso{
   
 
   
-
-
