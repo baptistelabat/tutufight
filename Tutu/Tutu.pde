@@ -14,16 +14,22 @@ void setup() {
  isMenu = true;
  choixNumero1 = false;
  choixNumero2 =false;
- 
+ String filename;
+ int np=0;
   //Chargement du trombinoscope.
   for(int i=0;i<nombrePerso;i++)
   {
-    
-   m =loadImage("images/"+str(i)+"/14.JPG");      
-   trombinoscope[i]=m;
+    filename = "images/"+str(i)+"/14.JPG";
+
+     m =loadImage(filename);
+     if (m != null)
+     {
+       trombinoscope[i]=m;
+       np=i;
+     }
     
    }
-   
+   nombrePerso = np+1;
    //Création des personnages gauche et droit
  
 
