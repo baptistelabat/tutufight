@@ -20,6 +20,8 @@ Then download some sample characters from [here](http://www.nautilabs.com/tutufi
 
 Unzip the images folder and place it into the Tutu folder.  
 
+Alternatively, you can download directly from this [link] (http://www.nautilabs.com/tutufight/tutufight.zip)
+
 Launch processing and open the tutu.pde file. Press the read button to launch the game.
 
 Creating a new character
